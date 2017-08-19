@@ -88,7 +88,7 @@ http://localhost:8000/restaurant/<RESTAURANT ID>/menu/<ITEM ID>/JSON
 ```
 ## Credits
 
- - Skeleton / base code from Udacity
+Skeleton / base code from multiple Udacity sources:
   - [Original UD330 Repository](https://github.com/udacity/ud330)
   - [Updated UD330 Repository from FSND Connect](https://github.com/NoMan2000/ud330)
   - [Full Stack Foundations (ud088)](https://github.com/udacity/Full-Stack-Foundations)
