@@ -1,5 +1,10 @@
-from flask import Flask, render_template, request, redirect, jsonify, \
-    url_for, flash
+from flask import (Flask,
+                   render_template,
+                   request,
+                   redirect,
+                   jsonify,
+                   url_for,
+                   flash)
 from sqlalchemy import create_engine, asc
 from sqlalchemy.orm import sessionmaker
 from database_setup import Base, Restaurant, MenuItem, User
@@ -328,9 +333,9 @@ def editRestaurant(restaurant_id):
             flash('Restaurant Successfully Edited %s'
                   % editedRestaurant.name)
             return redirect(url_for('showRestaurants'))
-        else:
-            return render_template('editRestaurant.html',
-                                   restaurant=editedRestaurant)
+    else:
+        return render_template('editRestaurant.html',
+                               restaurant=editedRestaurant)
 
 
 # Delete a restaurant
