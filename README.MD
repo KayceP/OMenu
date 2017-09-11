@@ -1,3 +1,6 @@
+![Part of the Udacity Front-End Web Development Nanodegree](https://img.shields.io/badge/Udacity-Front--End%20Web%20Developer%20Nanodegree-02b3e4.svg)
+> Developed for project 3 of 6 as part of the **Udacity Front-End Web Developer Nanodegree**.
+
 # OMenu
 
 A web app made for the [Udacity Full Stack Nanodegree program](https://www.udacity.com/uconnect/intensive/full-stack-web-developer-nanodegree), with Python. 
